@@ -1,0 +1,33 @@
+<!--<p>create-employee works!</p>-->
+<div class="wrapper">
+    <div class="column" id="empID">
+        Employee ID: <input type="text" #empID1>
+    </div>
+    <div class="column" id="empName">
+        Employee Name: <input type="text" #empName1>
+    </div>
+    <div class="column" id="empSalary">
+        Employee Salary: <input type="text" #empSalary1>
+    </div>
+    <div class="column" id="empDesignation">
+        Employee Designation: <input type="text" #empDesignation1>
+    </div>
+    <div class="column" id="but">
+        <button (click)="displayEmployeeInfo(empID1.value, empName1.value, empSalary1.value, empDesignation1.value)">Submit</button>
+    </div>
+    <div class="column" id="emInf">{{employeeInfo}}</div>
+    <!--
+    <div class="column" id="emI">
+        {{empID}}
+    </div>
+    <div class="column" id="emN">
+        {{empName}}
+    </div>
+    <div class="column" id="emS">
+        {{empSalary}}
+    </div>
+    <div class="column" id="emD">
+        {{empDesignation}}
+    </div>
+-->
+</div>

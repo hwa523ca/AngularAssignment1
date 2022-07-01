@@ -1,0 +1,35 @@
+div[id="empID"]{
+    padding-left: 600px;
+    padding-bottom: 10px;
+}
+div[id="empName"]{
+    padding-left: 579px;
+    padding-bottom: 10px;
+}
+div[id="empSalary"]{
+    padding-left: 576px;
+    padding-bottom: 10px;
+}
+div[id="empDesignation"]{
+    padding-left: 540px;
+    padding-bottom: 10px;
+}
+div[id="but"]{
+    padding-left: 690px;
+    padding-bottom: 50px;
+}
+div[id="emIn"]{
+    padding-left: 500px;
+}
+div[id="emI"]{
+    padding-left: 600px;
+}
+div[id="emN"]{
+    padding-left: 579px;
+}
+div[id="emS"]{
+    padding-left: 576px;
+}
+div[id="emD"]{
+    padding-left: 540px;
+}
